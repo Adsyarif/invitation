@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    margin: 0px;
+    
+}
+
+/* Top Header */
+#bg-img{
+    background-image: url(../asset/img-demo.jpeg);
+    padding: 17em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px 2px#000;
+    
+}
+
+.img-wraper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#article-header{
+    padding: 100px 300px;
+    
+}
+
+/* Article */
+#peserta{
+    margin-top: 50px;
+}
+#article-header{
+    margin-top: -90px;
+    padding-bottom: 100px;
+    padding-top: 190px;
+   
+}
+.member{
+    width: 80%;
+    margin: 0px auto 0px auto;
+}
+#container-nama{
+    margin-top: -320px;    
+}
+#nama{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color:white;
+    text-shadow: 2px 2px 2px#000;
+    font-size: 4rem;
+    line-height: 100px;
+}
+.txt-header{
+    text-align: justify;
+    font-family: 'Nunito', sans-serif;
+}
+.txt-header:last-of-type{
+    text-align: center;
+    
+}
+#logo-and{
+    font-size: 2.5em;
+}
+
+#img-laki{
+    width: 10%;
+    min-width: 200px ;
+    float: left;
+    margin-right: 30px;
+    
+    
+}
+
+#txt-laki{
+    width: 500px;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: s0px;
+    
+}
+#img-perempuan{
+    width: 15%;
+    min-width: 200px ;
+    float: right;
+    margin-left: 30px;
+}
+#txt-perempuan{
+    width: 1000px;
+    height: 150px;
+    padding-top: 50px;
+    text-align: right;
+    margin-right: -400px;
+}
+
+/* Section Acara */
+#location{
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: gainsboro;
+    padding-bottom: 100px;
+    
+}
+.info-wraper{
+    display: inline-block;
+    width: 300px;
+
+}
+.info-container{
+    margin: 0px auto;
+    width: 75%;
+}
+
+#akad{
+    margin-right: 10px;
+    margin-left: 100px;
+    
+}
+#lokasi{
+    padding-top: 100px;
+    
+}
+@media screen and (max-width: 700px ) {
+    #bg-img{
+        padding: 20em;
+        box-sizing: border-box;
+        background-attachment: fixed;
+    }
+    .img-wraper{
+        margin: 0px;
+        width: 100%;
+    }
+    #article-header{
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: -110px;
+        box-sizing: border-box;
+        padding-bottom: 50px ;
+        padding-top: 110px;
+       
+    }
+    #container-nama{
+        margin-top: -320px;  
+        
+    } 
+    #txt-perempuan{
+        width: 300px;
+        
+    
+    }
+}
+
